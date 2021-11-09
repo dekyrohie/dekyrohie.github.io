@@ -91,7 +91,11 @@ iframe {
 }
 
 /* Change styling on small viewports */
-@media (max-width: 991.98px) {
+@media screen and (max-width: 900px){
+  h1 {
+    font-size: 30px;
+  }
+
   .navbar {
     background: #fff;
   }
@@ -101,17 +105,22 @@ iframe {
     color: #555;
   }
 
-  iframe {
+    iframe {
     width: 640px;
     height: 360px;
   }
 }
 
-@media (max-width: 780px) {
+@media screen and (max-width: 770px) {
+  h1 {
+    font-size: 10px;
+  }
+  
   iframe {
-    width: 426px;
+    width: 326px;
     height: 240px;
   }
+  
 }
 
 /* CAROUSEL START */
