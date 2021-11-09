@@ -85,7 +85,12 @@
   text-align: center;
 }
 
-/* Change navbar styling on small viewports */
+iframe {
+  width: 854px;
+  height: 480px;
+}
+
+/* Change styling on small viewports */
 @media (max-width: 991.98px) {
   .navbar {
     background: #fff;
@@ -94,6 +99,18 @@
   .navbar .navbar-brand,
   .navbar .nav-link {
     color: #555;
+  }
+
+  iframe {
+    width: 640px;
+    height: 360px;
+  }
+}
+
+@media (max-width: 780px) {
+  iframe {
+    width: 426px;
+    height: 240px;
   }
 }
 
