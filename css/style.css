@@ -91,10 +91,10 @@ iframe {
 }
 
 /* Change styling on small viewports */
-@media screen and (max-width: 900px){
-  h1 {
+@media screen and (max-width: 995px){
+  /* h1 {
     font-size: 30px;
-  }
+  } */
 
   .navbar {
     background: #fff;
@@ -112,19 +112,25 @@ iframe {
 }
 
 @media screen and (max-width: 770px) {
-  .video-background-holder video {
+  /* .video-background-holder video {
     top: 50%;
     left: 50%;
     min-width: 40%;
     min-height: 40%;
     width: auto;
     height: auto;
-  }
+  } */
   
   iframe {
     width: 326px;
     height: 240px;
   }
+
+  /* CAROUSEL */
+  .media img {
+    display: none;
+  }
+
 }
 
 /* CAROUSEL START */
