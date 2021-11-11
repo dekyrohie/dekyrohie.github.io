@@ -24,45 +24,29 @@
     <title>Syaloom Balikpapan</title>
   </head>
   <body>
+
     <!-- NAVBAR START -->
     <header class="header">
-      <nav class="navbar navbar-expand-lg fixed-top py-3">
-        <div class="container">
-          <a href="#" class="navbar-brand text-uppercase font-weight-bold"
-            >GPIB SYALOOM BALIKPAPAN</a
-          >
-          <button
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-            class="navbar-toggler navbar-toggler-right"
-          >
-            <i class="fa fa-bars"></i>
-          </button>
-
-          <div id="navbarSupportedContent" class="collapse navbar-collapse">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
-                <a href="#" class="nav-link text-uppercase font-weight-bold"
-                  >Home <span class="sr-only">(current)</span></a
-                >
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link text-uppercase font-weight-bold"
-                  >About</a
-                >
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link text-uppercase font-weight-bold"
-                  >Gallery</a
-                >
-              </li>
-            </ul>
+      <nav class="navbar navbar-expand-lg navbar-expand-md fixed-top py-1">
+          <div class="container nav">
+            <a href="#" class="navbar-brand navbar_spacing">
+              <img src="./images/logo.png" alt="">Syaloom Balikpapan</a>
+              <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars grey_"></i></button>
+              
+              <div id="navbarSupportedContent" class="collapse navbar-collapse">
+                  <ul class="navbar-nav ml-auto">
+                      <li class="nav-item active">
+                        <a href="#one" class="nav-link text-uppercase scroll-link">sambutan<span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#two" class="nav-link text-uppercase scroll-link">pujian</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#three" class="nav-link text-uppercase scroll-link">gallery</a>
+                      </li>
+                  </ul>
+              </div>
           </div>
-        </div>
       </nav>
     </header>
     <!-- NAVBAR END -->
@@ -90,9 +74,9 @@
     <!-- End -->
 
     <!-- WELCOME PHOTO START -->
-    <div class="container py-5">
+    <div class="container py-5" id="one">
       <div class="text-center">
-        <h1 class="display-4">Sepatah Kata</h1>
+        <h1 class="display-5">Sepatah Kata</h1>
         <p class="font-italic mb-0">
           Sambutan dari KMJ (Ketua Majelis Jemaat) GPIB Syaloom Balikpapan.
         </p>
@@ -101,7 +85,7 @@
 
       <div class="row">
         <div class="col-lg-11 mx-auto">
-          <div class="py-5">
+          <div class="py-1">
             <h2 class="h4 font-italic mb-4">Ketua Majelis Jemaat</h2>
             <div class="row">
               <div class="col-lg-5">
@@ -137,16 +121,16 @@
     <!-- WELCOME PHOTO END -->
 
     <!-- CAROUSEL START -->
-    <section class="py-5 text-center">
+    <section class="py-1 text-center">
 
       <!-- YouTube Start -->
-      <div class="container py-5">
+      <div class="container py-5"  id="two">
         <div class="text-center text-white">
-          <h1 class="display-4">Pujian Online</h1>
+          <h1 class="display-5">Pujian Online</h1>
           <p class="font-italic mb-0">
             Gerakan Pemuda GPIB Syaloom Balikpapan.
           </p>
-          <p class="font-italic mb-5">Hidup Kita Yang Benar - KJ 450</p>
+          <p class="font-italic mb-1">Hidup Kita Yang Benar - KJ 450</p>
         </div>
         <div class="container_youtube mb-5">
           <iframe
@@ -160,10 +144,11 @@
 
         </div>
       </div>
-      <div class="container py-0 text-white">
+
+      <div class="container py-1 text-white">
         <header>
-          <h1 class="display-4">Sambutan Para Ketua Majelis Jemaat</h1>
-          <p class="font-italic mb-1">
+          <h1 class="display-5">Sambutan Para Ketua Majelis Jemaat</h1>
+          <p class="font-italic mb-1 py-1">
             Sepatah kata dari para ketua majelis di GPIB Syaloom Balikpapan.
           </p>
         </header>
@@ -379,11 +364,11 @@
     <!-- CAROUSEL END -->
 
     <div class="separator my-2"></div>
-    <div class="container py-5">
+    <div class="container py-5" id="three">
       <div class="row">
         <div class="col-lg-11 mx-auto">
 
-          <!-- IMAGE =================================== -->
+          <!-- IMAGE -->
           <div class="row py-5">
 
             <!-- IMAGE 1 -->
@@ -803,6 +788,9 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
+    <!-- SCROLL JS -->
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
+    <!-- SCROLL JS -->
     <script src="./js/script.js"></script>
   </body>
 </html>
