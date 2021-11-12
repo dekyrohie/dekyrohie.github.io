@@ -125,6 +125,10 @@ header img {
 
 /* Change styling on small viewports */
 @media screen and (max-width: 995px) {
+  .text_nav {
+    letter-spacing: 0px;
+  }
+
   .iframe_ iframe {
     width: 640px;
     height: 360px;
@@ -142,14 +146,10 @@ header img {
 }
 
 @media screen and (max-width: 770px) {
-  /* .video-background-holder video {
-    top: 50%;
-    left: 50%;
-    min-width: 40%;
-    min-height: 40%;
-    width: auto;
-    height: auto;
-  } */
+  .text_nav {
+    display: none;
+  }
+
   .navbar .nav-link:hover,
   .navbar .nav-link:focus {
     color: #555;
