@@ -14,4 +14,4 @@ $('#galleryModal').on('show.bs.modal', function (e) {
  });
 
 //  SCROLL
-var scroll = new SmoothScroll('a[href*="#"]');
+var scroll = new SmoothScroll('a[href*="#_"]');
