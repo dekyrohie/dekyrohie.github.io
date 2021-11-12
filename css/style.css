@@ -44,6 +44,10 @@
   letter-spacing: 10px;
 }
 
+.img_logo {
+  width: 30px;
+}
+
 /* Change navbar styling on small viewports */
 @media (max-width: 991.98px) {
   .navbar {
@@ -74,6 +78,21 @@
     #d4d3dd,
     #efefbb
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height:600px;
+}
+
+.gallery_bg {
+  background: #efefbb; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #d4d3dd,
+    #efefbb
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #d4d3dd,
+    #efefbb
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
 }
 
 .social-link {
